@@ -2,12 +2,12 @@ train: D:\DRIVE\TUP Files\4A\Thesis\model\tcs\dataset\train
 val: D:\DRIVE\TUP Files\4A\Thesis\model\tcs\dataset\valid
 test: D:\DRIVE\TUP Files\4A\Thesis\model\tcs\dataset\test
 
-nc: 8
-names: ['Bicycle', 'Bus', 'Car', 'Jeepney', 'Motorcycle', 'Tricycle', 'Truck', 'Van']
+nc: 7
+names: ['Bicycle', 'Bus', 'Car', 'Jeep', 'Motorcycle', 'Tricycle', 'Truck']
 
 roboflow:
-  workspace: vehicle-detection-and-data-generation
-  project: ph-vehicles-2
-  version: 1
+  workspace: for-thesis-46cfa
+  project: vehicle-detection-ph-nt1ns
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/vehicle-detection-and-data-generation/ph-vehicles-2/dataset/1
+  url: https://universe.roboflow.com/for-thesis-46cfa/vehicle-detection-ph-nt1ns/dataset/2
